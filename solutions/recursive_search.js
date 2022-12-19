@@ -43,10 +43,10 @@ module.exports = recursiveSearch;
 
 // And a written explanation of your solution
 /*****************************************************************************************
-* There are two bases cases for this problem: if we find the target, we should return true
-* and stop recursing, and if we go through all of the elements, we should stop recursing
-* and return false. This means we need to operate on a subset of the array every time we
-* recurse. To do this, we can pass the array minus the first element to the recursive call, 
-* and then check if the 0th element in the array is the target. The array will shrink by
-* one element on every invocation.
-******************************************************************************************/
+ * There are two bases cases for this problem: if we find the target, we should return true
+ * and stop recursing, and if we go through all of the elements, we should stop recursing
+ * and return false. This means we need to operate on a subset of the array every time we
+ * recurse. To do this, we can pass the array minus the first element to the recursive call,
+ * and then check if the 0th element in the array is the target. The array will shrink by
+ * one element on every invocation.
+ ******************************************************************************************/
